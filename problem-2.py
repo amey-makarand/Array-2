@@ -12,7 +12,7 @@ import sys
 
 
 class Solution:
-    def findSum(self, A, N):
+    def findMinMax(self, A, N):
 
         maxElement = -sys.maxsize-1
         minElement = sys.maxsize
