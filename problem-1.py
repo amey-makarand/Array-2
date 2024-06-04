@@ -8,7 +8,8 @@
 # if negative, do nothing
 # After complete traversal is done, traverse for a second time
 # check if a number is negative, make it positive, so as to not modify the original array
-# if positive , store the index and index+1 in the list
+# if positive , store the index+1 th index in the list
+
 
 class Solution:
     def findDisappearedNumbers(self, nums: List[int]) -> List[int]:
